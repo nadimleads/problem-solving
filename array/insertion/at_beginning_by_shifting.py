@@ -18,6 +18,8 @@ new_array[0]=elemet
 
 print('\n','Insert 50 at the beginning(raw array print):',new_array)
 
+
+
 print('\n','Insert 50 at the beginning(using prebuilt *system):',*new_array)
 
 print("\nInsert 50 at the beginning(showing with loop):")
