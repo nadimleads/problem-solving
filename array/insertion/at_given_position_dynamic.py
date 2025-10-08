@@ -7,16 +7,18 @@
 
 thelist = [10,20,30,40]
 element = 50
-position = 3 #(3rd position)
+position = 10 #(3rd position)
 
 n= len(thelist) #4
 addedlist= thelist+[0]
 
+if(position<= 1 or position>=n+1):
+    print('Invalid Input')
+else:
+    for i in range (n-1,position-2,-1):
+        addedlist[i+1] = addedlist[i]
 
-for i in range (n-1,position-2,-1):
-    addedlist[i+1] = addedlist[i]
-    print(*addedlist)
+    addedlist[position-1]=element
 
-addedlist[position-1]=element
-
-print('\n','Insert 50 at the 3rd position (index 2):',*addedlist)
+    ('\n','Insert 50 at the 3rd position (index 2):',*addedlist)
+    
