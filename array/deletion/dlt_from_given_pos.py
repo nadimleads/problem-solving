@@ -3,7 +3,7 @@
 # Output: [10, 30, 40]
 
 arr= [10, 20, 30, 40]
-pos=5
+pos=2
 n= len(arr)
 
 if pos <= 0 or pos > n:
@@ -16,8 +16,8 @@ else:
     nx = len(arr)-1
 
     print("Array after deletion-")
-    for i in range(nx):
-        print(arr[i], end=" ")
+    for k in range(nx):
+        print(arr[k], end=" ")
     
     
 # Using pos= 4 That means start at 4(i=4), stop before 4.
