@@ -11,8 +11,8 @@ for i in range(1, n, 1):
 	
 #arr.pop() # remove last duplicate element (Real deletion)
  
-#  n-=1 #another way
-# print('New Array:', *arr) #no possible by this way here cz arr is not cut short autometically
+#  n-=1 #another way of sizing the array
+# print('New Array:', *arr) #not possible by this way here cz arr is not cut short autometically
 
 nx = len(arr)-1 ## I didn’t actually delete anything from arr, I just stopped printing the last element.
 
@@ -21,4 +21,4 @@ for c in range(nx):
     print(arr[c], end=" ")
     
 print('\n')
-print(*arr[:nx]) #another way
+print(*arr[:nx]) #another way of printing
