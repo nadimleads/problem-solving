@@ -19,4 +19,4 @@ result = linearsearch(arr,x)
 if result == -1:
     print('Element Not Found')
 else:
-    print('Element is present in index-',result, ', means', result+1, 'th position')
+    print('Element is present in index-',result, ', means',result+1,'th position')
