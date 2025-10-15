@@ -11,7 +11,6 @@ def binary_recursive(arr, low, high, target):
     else:
         return -1
 
-
 arr = [11, 12, 13, 14, 15, 16, 17, 18, 19]
 target = 19
 n = len(arr)
