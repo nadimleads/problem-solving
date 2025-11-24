@@ -1,4 +1,5 @@
 # Given an array of integers, the task is to delete an element from the beginning of the array.
+
 # Input: arr[] = [10, 20, 30, 40]
 # Output: [20, 30, 40]
 
@@ -21,4 +22,4 @@ for c in range(nx):
     print(arr[c], end=" ")
     
 print('\n')
-print(*arr[:nx]) #another way of printing
+print(*arr[:nx]) #another way of printing without loop

@@ -1,4 +1,6 @@
-arr = [1,2,2,5,4]
+#Delete all occurance of the "given element" from an array (all duplicate items)
+
+arr = [1,2,2,5,3,3,6,4]
 n= len(arr)
 ele=2
 
@@ -9,7 +11,8 @@ for i in range(n):
         arr[new_len] = arr[i]
         new_len = new_len+1
 
-# arr[i] == ele: Using this logic, that if element matches with the ele, then kick the eles out
+# Using this logic, that if element matches with the ele, then kick the given eles out
+# arr[i] == ele: 
 # for i in range(n):
 #     if arr[i] == ele:
 #         continue
@@ -17,7 +20,7 @@ for i in range(n):
 #         arr[new_len] = arr[i]
 #         new_len = new_len+1
 
-print('After deducting all occurance, I have',new_len,'items left') #showing the number of elements left in after removing all occurrance
+print('After deducting all occurance of', ele, ',I have',new_len,'items left') #showing the number of elements left in after removing all occurrance
 
 #Print values with for loop
 for j in range (new_len):

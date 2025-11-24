@@ -1,3 +1,5 @@
+#delete an elment from the end of the array
+
 arr = [10, 20, 30, 40]
 n = len(arr)
 

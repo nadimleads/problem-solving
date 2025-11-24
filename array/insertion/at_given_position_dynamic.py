@@ -8,7 +8,7 @@
 #Position 3 (3rd Position) means 30 (In general), which means index 2. and from that others gonna be shifted.
 thelist = [10, 20, 30, 40]
 element = 50
-position = 3   # means insert at any position (index is pos-1)
+position = 3   # means insert at any position (index = position-1 = 2)
 
 n = len(thelist)
 addedlist = thelist + [0]

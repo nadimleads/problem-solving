@@ -1,11 +1,9 @@
 #ALHAMDULILLAH MASHAALLAH SUBHANALLAH
 
-#insert an elemnt at the given porition
-# Input: arr[] = [10, 20, 30, 40], 
+#Insert an elemnt at the given porition
+# arr[] = [10, 20, 30, 40], 
 # in position 2 insert elemnet = 50
 # Output: [10, 20, 50, 30, 40]
-
-
 
 # it runs for i = 3, 2, but not correctly adjusted if the insertion position changes — it’s hardcoded.
 thelist = [10,20,30,40]

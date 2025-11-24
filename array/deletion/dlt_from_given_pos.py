@@ -1,4 +1,5 @@
 # Given an array of integers, the task is to delete an element from a given position in the array.
+
 # Input: arr[] = [10, 20, 30, 40], pos = 2
 # Output: [10, 30, 40]
 

@@ -1,5 +1,10 @@
+#Binary Search (iterative)
+
 # arr = [11,12,13,14,15,16,17,18,19]
 # length = 9 (0-8)
+
+# Iterative: Uses loops (like for, while) to repeat a set of instructions until a condition is met.
+#Useful for: Simple repetitive tasks
 
 def binaryiterative (arr, target):
     n= len(arr)
@@ -14,13 +19,13 @@ def binaryiterative (arr, target):
         
         elif arr[mid]>target:
             high= mid-1
-        else:
+        else:#arr[mid]<target:
             low= mid+1
     
     return -1
 
 arr = [11,12,13,14,15,16,17,18,19]
-target = 19
+target = 12
 result= binaryiterative(arr,target)
 
 if result != -1 and arr[result] == target:

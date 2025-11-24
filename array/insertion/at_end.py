@@ -1,4 +1,4 @@
-#insert an elemnt at the end
+# Insert an elemnt at the end
 # Input: thelistarr[] = [10, 20, 30, 40], ele = 50
 # Output: [10, 20, 30, 40, 50]
 
