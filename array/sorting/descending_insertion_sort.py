@@ -8,7 +8,7 @@ def descending_insertion(arr):
 
         while j >= 0 and arr[j] < key:
             arr[j + 1] = arr[j]
-            j = j - 1  #j -= 1
+            j = j - 1  #j -= 1 (From structure of While loop)
         arr[j+1] = key #Best OPTIMIZED way
 
     return arr

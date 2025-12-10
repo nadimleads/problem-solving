@@ -44,6 +44,13 @@ print(Insertion_sort(arr,arr2))
 #  arr[j] > key → The element on the left is bigger than our key
 #  (so it needs to move right to make space)
 
+# (From structure of While loop)
+# ✔ j = j - 1 moves the pointer left
+# ✔ Allows us to compare the key with earlier elements
+# ✔ Prevents infinite loop
+# ✔ Makes room by shifting elements correctly
+# ✔ Ensures key is inserted at the correct position
+
 #       Why “while” is required (real reason)?
 #  Insertion sort must:
 #  Keep shifting values
