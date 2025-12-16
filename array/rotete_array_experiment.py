@@ -24,7 +24,7 @@ def rotate_array(array):
 
 array =[10,20,30,40]
 result= rotate_array(array)
-print('Rotated array:',*result)
+print('Rotated array:',*result) # making it array style
 
 
     #---------My learnign understanding part----------

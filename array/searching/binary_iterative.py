@@ -1,4 +1,5 @@
 #Binary Search (iterative)
+# An array MUST BE sequentially sorted for the binary search algorithm to function correctly.
 
 # arr = [11,12,13,14,15,16,17,18,19]
 # length = 9 (0-8)
