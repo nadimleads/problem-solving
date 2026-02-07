@@ -26,7 +26,6 @@ def running_sum(arr):
     return result
 
 arr= [1, 2, 3, 4, 5]
-print(arr)
 print(running_sum(arr))
 
 
