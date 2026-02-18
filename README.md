@@ -8,8 +8,6 @@ This is a structured problem-solving repository where I continuously push my cod
 
 - I use Python to solve problems, BUT written manually (I dont use Python's built-in methods!!)
 
-- Problems originally solved on platforms such as LeetCode and others.
-
 - Mathematical and logical problems solved using Python
 
 - I try to write Memory-efficient and well-structured logic
@@ -39,5 +37,7 @@ Editor: VS Code
 - Continuously add new problems and refine existing solutions
 
 - Improve optimization
+
+- Solving Problems on platforms such as LeetCode and others.
 
 - Planning to start solving different mathematical problems with Python coding.
