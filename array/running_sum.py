@@ -1,4 +1,5 @@
 # 1. Running Sum of an array (modifying the same array)
+print('Running Sum of an array (modifying the same array)')
 
 def running_sum_mod(arr):
     n= len(arr)
@@ -13,6 +14,7 @@ print(running_sum_mod(arr))
 
 
 # 2. Running Sum of an array (Using another array so that the main array is untouched)
+print('Running Sum of an array (Using another array so that the main array is untouched)')
 
 def running_sum(arr):
     n= len(arr)
@@ -30,6 +32,7 @@ print(running_sum(arr))
 
 
 # 3. Running Sum of an array (without using method def)
+print('Running Sum of an array (without using method def)')
 
 arrx= [1,2,3,4,11]
 n = len(arr)
@@ -39,7 +42,7 @@ for i in range(1,n):
 print(*arr)
 
 # 4. Show ONLY the final total instead of the whole running-sum array.
-
+print('Show ONLY the final total instead of the whole running-sum array.')
 def running_sum_mod(arr):
     n= len(arr)
 
@@ -52,6 +55,7 @@ arr= [1, 2, 3, 4, 5]
 print(running_sum_mod(arr))
 
 # 5. running-sum array counting from back(Right to left).
+print('running-sum array counting from back(Right to left)')
 
 def running_sum_mod(arr):
     n= len(arr)
@@ -66,7 +70,7 @@ print(running_sum_mod(arr))
 
 
 # 6. n(n+1)/2 BUT still involve an array (testing).
-
+print('n(n+1)/2 BUT still involve an array (testing).')
 arr = [1,2,3,4,5,6,7,8,9,10]
 
 n = len(arr)
